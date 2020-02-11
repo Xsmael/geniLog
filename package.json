@@ -1,0 +1,29 @@
+{
+  "name": "genilog",
+  "version": "0.0.1",
+  "description": "advanced syslog server",
+  "main": "server.js",
+  "dependencies": {
+    "simple-syslog-server": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xsmael/geniLog.git"
+  },
+  "keywords": [
+    "server",
+    "syslog",
+    "advanced"
+  ],
+  "author": "Xsmael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xsmael/geniLog/issues"
+  },
+  "homepage": "https://github.com/Xsmael/geniLog#readme"
+}
