@@ -4,6 +4,7 @@
   "description": "advanced syslog server",
   "main": "server.js",
   "dependencies": {
+    "noogger": "^0.1.8",
     "simple-syslog-server": "^1.0.0"
   },
   "devDependencies": {},
