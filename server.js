@@ -1,9 +1,9 @@
 const Syslog = require('simple-syslog-server') ;
 var log= require('noogger');
 // Create our syslog server with the given transport
-const socktype = 'TCP' ; // or 'TCP' or 'TLS'
+const socktype = 'UDP' ; // or 'TCP' or 'TLS'
 const address = '' ; // Any
-const port = 20514 ;
+const port = 514 ;
 var server = Syslog(socktype) ;
  
 // State Information
@@ -12,7 +12,14 @@ var clients = [] ;
 var count = 0 ;
  
 server.on('msg', data => {
-    log.notice('message received (%i) from %s:%i\n%o\n', ++count, data.address, data.port, data) ;
+    // console.log(typeof data.tag);
+    let tag= data.tag;
+    if(tag.startsWith("logportalauth")) {
+        log.notice( data.msg+' at '+data.timestamp);
+    }    
+    // if(data.tag.contains("php-fpm") ) {
+    //     console.log(data.msg);
+    // }
     /*
     message received (1) from ::ffff:192.168.1.13:59666
     {
@@ -32,10 +39,10 @@ server.on('msg', data => {
     */
 })
 .on('invalid', err => {
-    log.warning('Invalid message format received: %o\n', err) ;
+    log.warning('Invalid message format received: '+ err) ;
 })
 .on('error', err => {
-    log.warning('Client disconnected abruptly: %o\n', err) ;
+    log.warning('Client disconnected abruptly: '+ err) ;
 })
 .on('connection', s => {
     let addr = s.address().address ;
