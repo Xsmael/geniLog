@@ -1,5 +1,6 @@
 const Syslog = require('simple-syslog-server') ;
 var log= require('noogger');
+var mysql= require('mysql2');
 // Create our syslog server with the given transport
 const socktype = 'UDP' ; // or 'TCP' or 'TLS'
 const address = '' ; // Any
@@ -10,12 +11,37 @@ var server = Syslog(socktype) ;
 var listening = false ;
 var clients = [] ;
 var count = 0 ;
- 
+var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/i;
+
 server.on('msg', data => {
     // console.log(typeof data.tag);
     let tag= data.tag;
     if(tag.startsWith("logportalauth")) {
-        log.notice( data.msg+' at '+data.timestamp);
+        log.notice( data.msg  );
+
+        if(data.msg.contains("Voucher login good for")) {
+            let result= reLOGIN.exec(data.msg );
+            let info= {
+                durantion: result[1],
+                code: result[2],
+                mac: result[3],
+                ip: result[4]
+            };
+            
+            db_connection.execute('INSERT INTO contact(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,NOW())',
+            [null, info.code, info.durantion, info.mac, info.ip],
+                function (err, results, fields) {
+                    if (err) log.error("DB: " + err);
+                });
+        }
+        else if(data.msg.contains("LOGIN - TERMINATING SESSION")) {
+
+        }
+        else if(data.msg.contains("LOGIN - TERMINATING SESSION")) {
+
+        }
+
+        
     }    
     // if(data.tag.contains("php-fpm") ) {
     //     console.log(data.msg);
@@ -75,4 +101,22 @@ server.on('msg', data => {
         }
     }
 }) ;
+
+
+function connectDB() {
+    db_connection = mysql.createConnection(CONFIG.DB_CONFIG);
+    db_connection.on("error", function (err) {
+        log.error('DB ERROR: ' + err);
+        setTimeout(connectDB, CONFIG.DB_RECONNECTION_TIMEOUT); // AUTO RECONNECTION
+    });
+    db_connection.connect((err, res) => {
+        if (err) log.error(err);
+        else {
+            log.notice("DB connected");
+            /*Loading settings*/
+            updateOnTableChange("settings");
+        }
+    });
+}
+
  
