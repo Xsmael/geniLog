@@ -6,6 +6,16 @@ const socktype = 'UDP' ; // or 'TCP' or 'TLS'
 const address = '' ; // Any
 const port = 514 ;
 var server = Syslog(socktype) ;
+var  DB_CONFIG={
+    "DB_RECONNECTION_TIMEOUT": 2000,
+    "DB_CONFIG": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "captiveportal_stats"
+    }
+};
+
  
 // State Information
 var listening = false ;
