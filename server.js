@@ -22,7 +22,7 @@ var listening = false ;
 var clients = [] ;
 var count = 0 ;
 var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/i;
-
+var reINVALID= /Zone: [\w\d]+ \- FAILURE: ([\w\W\d\D]*), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), Invalid credentials specified/i;
 server.on('msg', data => {
     // console.log(typeof data.tag);
     let tag= data.tag;
@@ -38,7 +38,7 @@ server.on('msg', data => {
                 ip: result[4]
             };
             
-            db_connection.execute('INSERT INTO contact(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,NOW())',
+            db_connection.execute('INSERT INTO logins(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,NOW())',
             [null, info.code, info.durantion, info.mac, info.ip],
                 function (err, results, fields) {
                     if (err) log.error("DB: " + err);
@@ -47,12 +47,32 @@ server.on('msg', data => {
         else if(data.msg.contains("LOGIN - TERMINATING SESSION")) {
 
         }
-        else if(data.msg.contains("LOGIN - TERMINATING SESSION")) {
-
+        else{
+            if(let result= reINVALID.exec(data.msg)) {
+                let info= {
+                    code: result[1],
+                    mac: result[2],
+                    ip: result[3],
+                    error:'INVALID_CREDENTIAL',
+                    errorMsg:'Invalid credentials specified'
+                };
+                db_connection.execute('INSERT INTO failures(id, code, error, errorMsg, mac, ip, time) VALUES (?,?,?,?,?,NOW())',
+                [null, info.code, info.error, info.errorMsg, info.mac, info.ip],
+                function (err, results, fields) {
+                    if (err) log.error("DB: " + err);
+                });
+            }
         }
 
         
     }    
+
+    `code` VARCHAR(45) NULL,
+    `error` VARCHAR(45) NULL,
+    `errorMsg` VARCHAR(45) NULL,
+    `mac` VARCHAR(20) NULL,
+    `ip` VARCHAR(15) NULL,
+    `time` TIMESTAMP NULL,
     // if(data.tag.contains("php-fpm") ) {
     //     console.log(data.msg);
     // }
