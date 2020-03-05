@@ -5,8 +5,9 @@ var mysql= require('mysql2');
 const socktype = 'UDP' ; // or 'TCP' or 'TLS'
 const address = '' ; // Any
 const port = 514 ;
+var db_connection;
 var server = Syslog(socktype) ;
-var  DB_CONFIG={
+var  CONFIG={
     "DB_RECONNECTION_TIMEOUT": 2000,
     "DB_CONFIG": {
         "host": "localhost",
@@ -16,20 +17,20 @@ var  DB_CONFIG={
     }
 };
 
- 
+connectDB();
 // State Information
 var listening = false ;
 var clients = [] ;
 var count = 0 ;
 var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/i;
-var reINVALID= /Zone: [\w\d]+ \- FAILURE: ([\w\W\d\D]*), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), Invalid credentials specified/i;
+var reINVALID= /Zone: [\w\d]+ \- FAILURE: ([\w\W\d\D]*), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), Invalid credentials specified/g;
 server.on('msg', data => {
     // console.log(typeof data.tag);
     let tag= data.tag;
     if(tag.startsWith("logportalauth")) {
         log.notice( data.msg  );
 
-        if(data.msg.contains("Voucher login good for")) {
+        if(data.msg.indexOf("Voucher login good for")>-1) {
             let result= reLOGIN.exec(data.msg );
             let info= {
                 durantion: result[1],
@@ -44,11 +45,12 @@ server.on('msg', data => {
                     if (err) log.error("DB: " + err);
                 });
         }
-        else if(data.msg.contains("LOGIN - TERMINATING SESSION")) {
+        else if(data.msg.indexOf("LOGIN - TERMINATING SESSION")>-1) {
 
         }
         else{
-            if(let result= reINVALID.exec(data.msg)) {
+            var result;
+            if(result= reINVALID.exec(data.msg)) {
                 let info= {
                     code: result[1],
                     mac: result[2],
@@ -56,23 +58,15 @@ server.on('msg', data => {
                     error:'INVALID_CREDENTIAL',
                     errorMsg:'Invalid credentials specified'
                 };
-                db_connection.execute('INSERT INTO failures(id, code, error, errorMsg, mac, ip, time) VALUES (?,?,?,?,?,NOW())',
+                db_connection.execute('INSERT INTO failures(id, code, error, errorMsg, mac, ip, time) VALUES (?,?,?,?,?,?,NOW())',
                 [null, info.code, info.error, info.errorMsg, info.mac, info.ip],
                 function (err, results, fields) {
                     if (err) log.error("DB: " + err);
+                    else log.info("Insert success");
                 });
             }
-        }
-
-        
+        }        
     }    
-
-    `code` VARCHAR(45) NULL,
-    `error` VARCHAR(45) NULL,
-    `errorMsg` VARCHAR(45) NULL,
-    `mac` VARCHAR(20) NULL,
-    `ip` VARCHAR(15) NULL,
-    `time` TIMESTAMP NULL,
     // if(data.tag.contains("php-fpm") ) {
     //     console.log(data.msg);
     // }
@@ -142,9 +136,9 @@ function connectDB() {
     db_connection.connect((err, res) => {
         if (err) log.error(err);
         else {
+
             log.notice("DB connected");
-            /*Loading settings*/
-            updateOnTableChange("settings");
+        
         }
     });
 }

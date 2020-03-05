@@ -1,0 +1,112 @@
+05-03-2020 01:40:09.9 [NOTICE] Zone: portail - FAILURE: , ec:5a:86:87:f6:64, 192.168.11.26, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 06:26:15.4 [NOTICE] Zone: portail - FAILURE: , f0:b9:68:fa:ab:a5, 192.168.11.96, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 06:26:50.8 [NOTICE] Zone: portail - FAILURE: , f0:b9:68:fa:ab:a5, 192.168.11.96, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 07:11:00.5 [NOTICE] Zone: portail - Voucher login good for 88 min.: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 08:37:23.7 [NOTICE] Zone: portail - Voucher login good for 1440 min.: G1QU39H4RQ1G5, 68:5a:cf:29:1a:b6, 192.168.11.11 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 08:38:49.6 [NOTICE] Zone: portail - EXPIRED XZYHF1H9VQ5P2 LOGIN - TERMINATING SESSION: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 08:43:35.0 [NOTICE] Zone: portail - FAILURE: , a4:3d:78:7f:44:4c, 192.168.11.186, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:03:54.9 [NOTICE] Zone: portail - FAILURE: , 24:00:ba:c7:ff:19, 192.168.11.203, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:04:43.9 [NOTICE] Zone: portail - 72123457 invalid: TYPO Invalid magic <72123457> !! at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:04:43.9 [NOTICE] Zone: portail - FAILURE: 72123457, 24:00:ba:c7:ff:19, 192.168.11.203 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:05:09.4 [NOTICE] Zone: portail - FAILURE: , 24:00:ba:c7:ff:19, 192.168.11.203, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:28:28.6 [NOTICE] Zone: portail - Voucher login good for 7200 min.: 3HMM44YCR6EX6, 78:3a:6c:4b:9b:95, 192.168.11.96 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:36:33.5 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:36:33.5 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149, voucher expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:39:15.6 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:39:15.6 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149, voucher expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:49:56.7 [NOTICE] Zone: portail - Voucher login good for 7178 min.: 3HMM44YCR6EX6, ca:11:75:d9:76:b3, 192.168.11.92 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:50:24.3 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:50:24.3 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 74:c1:7d:c2:24:6d, 192.168.11.33, voucher expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:50:47.4 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:50:47.4 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149, voucher expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:51:18.9 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:51:18.9 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 2c:0e:3d:b0:11:92, 192.168.11.149, voucher expired at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 09:51:55.9 [NOTICE] Zone: portail - Voucher login good for 7176 min.: 3HMM44YCR6EX6, ca:11:75:d9:76:b3, 192.168.11.92 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:09:29.7 [NOTICE] Zone: portail - FAILURE: , cc:fa:00:f6:f6:07, 192.168.11.196, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:11:21.8 [NOTICE] Zone: portail - 192168111 invalid: TYPO Invalid magic <192168111> !! at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:11:21.8 [NOTICE] Zone: portail - FAILURE: 192168111, cc:fa:00:f6:f6:07, 192.168.11.196 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:13:23.0 [NOTICE] Zone: portail - ERROR: Tapsoba Ragnimwendé Gedeon, cc:fa:00:f6:f6:07, 192.168.11.196, Error : could not connect to authentication server. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:50:42.0 [NOTICE] Zone: portail - Voucher login good for 1440 min.: QJFCAZXJQ7F3D, c4:17:fe:16:92:5d, 192.168.11.147 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 10:52:14.4 [NOTICE] Zone: portail - EXPIRED DTTYMXXXSS426 LOGIN - TERMINATING SESSION: DTTYMXXXSS426, 74:c1:7d:ab:ca:12, 192.168.11.239 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:36:34.0 [NOTICE] Zone: portail - FAILURE: , 90:06:28:9c:28:ad, 192.168.11.87, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:41:06.4 [NOTICE] Zone: portail - dck125 invalid: TYPO illegal character (k) found in dck125 !! at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:41:06.4 [NOTICE] Zone: portail - FAILURE: dck125, 20:16:b9:a6:7e:8f, 192.168.11.162 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:41:21.4 [NOTICE] Zone: portail - FAILURE: , 20:16:b9:a6:7e:8f, 192.168.11.162, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:42:10.5 [NOTICE] Zone: portail - 0467070470 invalid: TYPO illegal character (0) found in 0467070470 !! at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:42:10.5 [NOTICE] Zone: portail - FAILURE: 0467070470, 74:c1:7d:d0:3b:b4, 192.168.11.100 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:42:37.7 [NOTICE] Zone: portail - FAILURE: , 1a:ae:0a:48:2f:82, 192.168.11.84, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:54:12.9 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:d1:e8:39, 192.168.11.231, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 11:54:23.7 [NOTICE] Zone: portail - FAILURE: , 1a:ae:0a:48:2f:82, 192.168.11.84, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 12:13:08.2 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:4e:a0:f9, 192.168.11.81, Invalid credentials specified. at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 12:17:05.8 [NOTICE] Zone: portail - Voucher login good for 1440 min.: WY4Z241ZY5VYA, 74:c1:7d:4e:a0:f9, 192.168.11.81 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 12:17:06.5 [NOTICE] Zone: portail - Voucher login good for 1440 min.: WY4Z241ZY5VYA, 74:c1:7d:4e:a0:f9, 192.168.11.81 at Thu Mar 05 2020 00:00:00 GMT+0000 (GMT)
+05-03-2020 12:27:57.7 [DEBUG] Now listening on: :514
+05-03-2020 12:48:35.7 [DEBUG] Now listening on: :514
+05-03-2020 12:48:49.3 [DEBUG] Now listening on: :514
+05-03-2020 13:00:27.5 [NOTICE] Zone: portail - WougidiWougidi invalid: TYPO illegal character (i) found in WougidiWougidi !!
+05-03-2020 13:00:27.5 [WARNING] Invalid message format received: TypeError: data.msg.contains is not a function
+05-03-2020 13:00:27.5 [NOTICE] Zone: portail - FAILURE: WougidiWougidi, b2:0f:82:f6:ac:c1, 192.168.11.109
+05-03-2020 13:00:27.5 [WARNING] Invalid message format received: TypeError: data.msg.contains is not a function
+05-03-2020 13:03:55.5 [DEBUG] Now listening on: :514
+05-03-2020 13:04:02.8 [NOTICE] Zone: portail - WougidiWougidi invalid: TYPO illegal character (i) found in WougidiWougidi !!
+05-03-2020 13:04:02.8 [WARNING] Invalid message format received: TypeError: data.msg.contains is not a function
+05-03-2020 13:04:02.8 [NOTICE] Zone: portail - FAILURE: WougidiWougidi, b2:0f:82:f6:ac:c1, 192.168.11.109
+05-03-2020 13:04:02.8 [WARNING] Invalid message format received: TypeError: data.msg.contains is not a function
+05-03-2020 13:04:10.5 [DEBUG] Now listening on: :514
+05-03-2020 13:04:14.3 [NOTICE] Zone: portail - WougidiWougidi invalid: TYPO illegal character (i) found in WougidiWougidi !!
+05-03-2020 13:04:14.3 [NOTICE] Zone: portail - FAILURE: WougidiWougidi, b2:0f:82:f6:ac:c1, 192.168.11.109
+05-03-2020 13:04:45.0 [NOTICE] Zone: portail - WWW invalid: Too short!
+05-03-2020 13:04:45.0 [NOTICE] Zone: portail - FAILURE: WWW, b2:0f:82:f6:ac:c1, 192.168.11.109
+05-03-2020 13:05:55.6 [NOTICE] Zone: portail - WWW454545WWW invalid: TYPO Invalid magic <WWW454545WWW> !!
+05-03-2020 13:05:55.6 [NOTICE] Zone: portail - FAILURE: WWW454545WWW, b2:0f:82:f6:ac:c1, 192.168.11.109
+05-03-2020 13:09:59.0 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:09:59.0 [WARNING] Invalid message format received: ReferenceError: db_connection is not defined
+05-03-2020 13:10:05.4 [NOTICE] Zone: portail - FAILURE: SCS, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:10:05.4 [WARNING] Invalid message format received: ReferenceError: db_connection is not defined
+05-03-2020 13:10:22.5 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:10:22.5 [WARNING] Invalid message format received: ReferenceError: db_connection is not defined
+05-03-2020 13:10:22.8 [NOTICE] Zone: portail - ERROR: EFE, b2:0f:82:f6:ac:c1, 192.168.11.109, Error : could not connect to authentication server.
+05-03-2020 13:12:41.5 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:12:41.5 [WARNING] Invalid message format received: ReferenceError: db_connection is not defined
+05-03-2020 13:13:43.0 [DEBUG] Now listening on: :514
+05-03-2020 13:13:52.6 [NOTICE] Zone: portail - FAILURE: ZZXZXZ, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:13:52.6 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:14:14.0 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:14:14.0 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:14:39.1 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:14:39.1 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:16:46.3 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:16:46.3 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:17:17.8 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:17:17.8 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:17:55.2 [DEBUG] Now listening on: :514
+05-03-2020 13:18:01.6 [NOTICE] Zone: portail - FAILURE: SSCCS, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:18:01.6 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:18:53.0 [NOTICE] Zone: portail - FAILURE: , 00:08:22:cc:b5:fb, 192.168.11.186, Invalid credentials specified.
+05-03-2020 13:18:53.0 [WARNING] Invalid message format received: TypeError: Cannot read property 'execute' of undefined
+05-03-2020 13:20:40.0 [DEBUG] Now listening on: :514
+05-03-2020 13:20:50.2 [DEBUG] Now listening on: :514
+05-03-2020 13:21:12.2 [DEBUG] Now listening on: :514
+05-03-2020 13:21:12.2 [NOTICE] DB connected
+05-03-2020 13:21:21.5 [NOTICE] Zone: portail - FAILURE: SCSC, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:21:21.5 [ERROR] DB: Error: Column count doesn't match value count at row 1
+05-03-2020 13:22:14.3 [DEBUG] Now listening on: :514
+05-03-2020 13:22:14.3 [NOTICE] DB connected
+05-03-2020 13:22:20.6 [NOTICE] Zone: portail - FAILURE: SCS, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:22:20.6 [ERROR] DB: Error: Column count doesn't match value count at row 1
+05-03-2020 13:22:28.9 [DEBUG] Now listening on: :514
+05-03-2020 13:22:28.9 [NOTICE] DB connected
+05-03-2020 13:22:32.6 [NOTICE] Zone: portail - FAILURE: SCSCS, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:22:32.6 [ERROR] DB: Error: Column 'id' cannot be null
+05-03-2020 13:25:08.9 [NOTICE] Zone: portail - FAILURE: SXSX, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:25:35.7 [NOTICE] Zone: portail - FAILURE: SSSSSSS, b2:0f:82:f6:ac:c1, 192.168.11.109, Invalid credentials specified.
+05-03-2020 13:25:35.9 [INFO] Insert success
+05-03-2020 13:31:32.0 [NOTICE] Zone: portail - SGTWVNSED46F3 (11/5) already used and expired
+05-03-2020 13:31:32.0 [NOTICE] Zone: portail - FAILURE: SGTWVNSED46F3, 88:83:22:82:9a:d6, 192.168.11.60, voucher expired
+05-03-2020 13:31:48.8 [NOTICE] Zone: portail - FAILURE: , 88:83:22:82:9a:d6, 192.168.11.60, Invalid credentials specified.
+05-03-2020 13:31:48.8 [INFO] Insert success
+05-03-2020 13:44:44.9 [NOTICE] Zone: portail - EXPIRED BKMYTXTAH7HM7 LOGIN - TERMINATING SESSION: BKMYTXTAH7HM7, 78:3a:6c:97:e0:57, 192.168.11.177
+05-03-2020 14:34:26.8 [NOTICE] Zone: portail - 3001 invalid: Too short!
+05-03-2020 14:34:26.8 [NOTICE] Zone: portail - FAILURE: 3001, 0c:ec:84:ab:01:c1, 192.168.11.165
+05-03-2020 14:36:59.8 [NOTICE] Zone: portail - FAILURE: , bc:91:b5:50:c4:4d, 192.168.11.100, Invalid credentials specified.
+05-03-2020 14:36:59.9 [INFO] Insert success
