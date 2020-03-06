@@ -22,14 +22,15 @@ connectDB();
 var listening = false ;
 var clients = [] ;
 var count = 0 ;
-var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/i;
+var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/g;
+var reLOGOUT= /Zone: [\w\d]+ \- EXPIRED ([A-Za-z0-9]+) LOGIN - TERMINATING SESSION: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/g
 var reINVALID= /Zone: [\w\d]+ \- FAILURE: ([\w\W\d\D]*), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), Invalid credentials specified/g;
 server.on('msg', data => {
     // console.log(typeof data.tag);
     let tag= data.tag;
     if(tag.startsWith("logportalauth")) {
         log.notice( data.msg  );
-
+        // LOGIN logline
         if(data.msg.indexOf("Voucher login good for")>-1) {
             let result= reLOGIN.exec(data.msg );
             let info= {
@@ -39,16 +40,28 @@ server.on('msg', data => {
                 ip: result[4]
             };
             
-            db_connection.execute('INSERT INTO logins(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,NOW())',
+            db_connection.execute('INSERT INTO logins(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,?,NOW())',
             [null, info.code, info.durantion, info.mac, info.ip],
                 function (err, results, fields) {
                     if (err) log.error("DB: " + err);
                 });
         }
+        // SESSION ENDING logline
         else if(data.msg.indexOf("LOGIN - TERMINATING SESSION")>-1) {
+            let result= reLOGOUT.exec(data.msg );
+            let info= {
+                code: result[2],
+                mac: result[3],
+                ip: result[4]
+            };
 
+            db_connection.execute('INSERT INTO logouts(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,?,NOW())',
+            [null, info.code, info.durantion, info.mac, info.ip],
+                function (err, results, fields) {
+                    if (err) log.error("DB: " + err);
+                });
         }
-        else{
+        else {
             var result;
             if(result= reINVALID.exec(data.msg)) {
                 let info= {
