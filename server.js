@@ -24,7 +24,16 @@ var clients = [] ;
 var count = 0 ;
 var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/g;
 var reLOGOUT= /Zone: [\w\d]+ \- EXPIRED ([A-Za-z0-9]+) LOGIN - TERMINATING SESSION: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/g
-var reINVALID= /Zone: [\w\d]+ \- FAILURE: ([\w\W\d\D]*), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), Invalid credentials specified/g;
+var reINVALID= /Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), (Invalid credentials specified)/g;
+
+var reUSED_EXPIRED= /Zone: [\w\d]+ \- ([A-Za-z0-9]+) \(([0-9]+/[0-9]+)\) (already used and expired)/g;
+var reNOTFOUND= /Zone: [\w\d]+ \- (.*?) \(([0-9]+/[0-9]+)\): (not found on any registered Roll)/g;
+var reTYPO_ILLEGAL= /Zone: [\w\d]+ \- (.*?) invalid: (TYPO illegal character.....found)/g;
+var reTYPO_INVALID= /Zone: [\w\d]+ \- (.*?) invalid: (TYPO Invalid magic)/g;
+var reTOO_SHORT= /Zone: [\w\d]+ \- (.*?) invalid: (Too short!)/g
+var reERROR= /Zone: [\w\d]+ \- ERROR: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), \w+ : ([\w\s]+)/g
+var reFAILURE= /Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/g
+
 server.on('msg', data => {
     // console.log(typeof data.tag);
     let tag= data.tag;
@@ -63,22 +72,86 @@ server.on('msg', data => {
         }
         else {
             var result;
+            var info;
             if(result= reINVALID.exec(data.msg)) {
-                let info= {
+                info= {
                     code: result[1],
                     mac: result[2],
                     ip: result[3],
                     error:'INVALID_CREDENTIAL',
-                    errorMsg:'Invalid credentials specified'
+                    errorMsg: result[4]
                 };
-                db_connection.execute('INSERT INTO failures(id, code, error, errorMsg, mac, ip, time) VALUES (?,?,?,?,?,?,NOW())',
-                [null, info.code, info.error, info.errorMsg, info.mac, info.ip],
-                function (err, results, fields) {
-                    if (err) log.error("DB: " + err);
-                    else log.info("Insert success");
-                });
             }
-        }        
+            else if(result= reUSED_EXPIRED.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: null,
+                    ip:null,
+                    error:'USED_EXPIRED',
+                    errorMsg: result[3]+'. batch: '+ result[2]
+                };
+            }
+            else if(result= reNOTFOUND.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: null,
+                    ip:null,
+                    error:'NOT_FOUND',
+                    errorMsg: result[3]+'. batch: '+ result[2]
+                };
+            }
+            else if(result= reTYPO_ILLEGAL.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: null,
+                    ip:null,
+                    error:'ILLEGAL_CHARACTER',
+                    errorMsg: result[2]
+                };
+            }
+            else if(result= reTYPO_INVALID.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: null,
+                    ip:null,
+                    error:'INVALID_MAGIC',
+                    errorMsg: result[2]
+                };
+            }
+            else if(result= reTOO_SHORT.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: null,
+                    ip:null,
+                    error:'TOO_SHORT',
+                    errorMsg: result[2]
+                };
+            }
+            else if(result= reERROR.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: result[2],
+                    ip: result[3],
+                    error:"ERROR",
+                    errorMsg: result[4]
+                };
+            }
+            else if(result= reFAILURE.exec(data.msg)) {
+                info= {
+                    code: result[1],
+                    mac: result[2],
+                    ip: result[3],
+                    error:'FAILURE',
+                    errorMsg: null
+                };
+            }
+            db_connection.execute('INSERT INTO failures(id, code, error, errorMsg, mac, ip, time) VALUES (?,?,?,?,?,?,NOW())',
+            [null, info.code, info.error, info.errorMsg, info.mac, info.ip],
+            function (err, results, fields) {
+                if (err) log.error("DB: " + err);
+                else log.info("Insert success");
+            });
+        }      
     }    
     // if(data.tag.contains("php-fpm") ) {
     //     console.log(data.msg);
