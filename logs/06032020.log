@@ -1,0 +1,143 @@
+06-03-2020 00:45:47.1 [NOTICE] Zone: portail - 24556677 invalid: TYPO Invalid magic <24556677> !!
+06-03-2020 00:45:47.1 [NOTICE] Zone: portail - FAILURE: 24556677, 64:89:9a:0b:a3:18, 192.168.11.245
+06-03-2020 05:50:12.1 [ERROR] DB ERROR: Error: Connection lost: The server closed the connection.
+06-03-2020 05:50:14.1 [NOTICE] DB connected
+06-03-2020 07:01:10.0 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:86:d4:51, 192.168.11.25, Invalid credentials specified.
+06-03-2020 07:01:10.1 [INFO] Insert success
+06-03-2020 07:11:12.7 [NOTICE] Zone: portail - FAILURE: , 88:66:a5:32:73:d0, 192.168.11.75, Invalid credentials specified.
+06-03-2020 07:13:56.9 [NOTICE] Zone: portail - FAILURE: , bc:91:b5:be:c8:3b, 192.168.11.102, Invalid credentials specified.
+06-03-2020 07:13:57.0 [INFO] Insert success
+06-03-2020 07:14:15.4 [NOTICE] Zone: portail - FAILURE: , bc:91:b5:be:c8:3b, 192.168.11.102, Invalid credentials specified.
+06-03-2020 07:14:40.8 [NOTICE] Zone: portail - 73327 invalid: TYPO Invalid magic <73327> !!
+06-03-2020 07:14:40.8 [NOTICE] Zone: portail - FAILURE: 73327, bc:91:b5:be:c8:3b, 192.168.11.102
+06-03-2020 07:16:29.1 [NOTICE] Zone: portail - Voucher login good for 1440 min.: UD1CHBMW9CJUF, 74:c1:7d:86:d4:51, 192.168.11.25
+06-03-2020 07:16:29.1 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 07:29:25.5 [NOTICE] Zone: portail - FAILURE: , 60:8e:08:34:25:a1, 192.168.11.185, Invalid credentials specified.
+06-03-2020 07:29:25.6 [INFO] Insert success
+06-03-2020 07:36:26.3 [NOTICE] Zone: portail - Voucher login good for 5871 min.: 3HMM44YCR6EX6, 00:9a:cd:d4:12:98, 192.168.11.116
+06-03-2020 07:36:26.3 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 07:37:14.6 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired
+06-03-2020 07:37:14.6 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 5c:c3:07:7a:e1:d8, 192.168.11.85, voucher expired
+06-03-2020 07:37:27.0 [NOTICE] Zone: portail - XZYHF1H9VQ5P2 (131/76) already used and expired
+06-03-2020 07:37:27.0 [NOTICE] Zone: portail - FAILURE: XZYHF1H9VQ5P2, 5c:c3:07:7a:e1:d8, 192.168.11.85, voucher expired
+06-03-2020 07:39:56.1 [NOTICE] Zone: portail - Voucher login good for 1440 min.: PHGAPTPMECNQ8, 5c:c3:07:7a:e1:d8, 192.168.11.85
+06-03-2020 07:39:56.1 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 08:37:17.1 [NOTICE] Zone: portail - EXPIRED G1QU39H4RQ1G5 LOGIN - TERMINATING SESSION: G1QU39H4RQ1G5, 68:5a:cf:29:1a:b6, 192.168.11.11
+06-03-2020 09:12:38.3 [NOTICE] Voucher: All 100 vouchers from Roll 10 marked unused
+06-03-2020 09:16:07.6 [NOTICE] Voucher: All 10 vouchers from Roll 101 marked unused
+06-03-2020 09:20:42.9 [NOTICE] Voucher: All 10 vouchers from Roll 22 marked unused
+06-03-2020 09:27:50.1 [NOTICE] Voucher: All 10 vouchers from Roll 23 marked unused
+06-03-2020 09:29:10.6 [NOTICE] Voucher: All 10 vouchers from Roll 24 marked unused
+06-03-2020 09:31:17.9 [NOTICE] Voucher: All 500 vouchers from Roll 10 marked unused
+06-03-2020 09:32:28.5 [NOTICE] Zone: portail - FAILURE: , 64:cb:9f:73:e7:3b, 192.168.11.242, Invalid credentials specified.
+06-03-2020 09:32:28.6 [INFO] Insert success
+06-03-2020 09:37:40.3 [NOTICE] Zone: portail - 72021669 invalid: TYPO illegal character (0) found in 72021669 !!
+06-03-2020 09:37:40.3 [NOTICE] Zone: portail - FAILURE: 72021669, 2c:0e:3d:b0:11:92, 192.168.11.21
+06-03-2020 09:38:15.8 [NOTICE] Zone: portail - 9TH2395G6D7G4 (778/6) already used and expired
+06-03-2020 09:57:59.0 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:20:e1:7a, 192.168.11.209, Invalid credentials specified.
+06-03-2020 09:57:59.1 [INFO] Insert success
+06-03-2020 09:59:06.2 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:20:e1:7a, 192.168.11.209, Invalid credentials specified.
+06-03-2020 10:11:09.2 [NOTICE] Zone: portail - FAILURE: , 0c:ec:84:17:03:55, 192.168.11.201, Invalid credentials specified.
+06-03-2020 10:11:09.2 [INFO] Insert success
+06-03-2020 10:11:10.0 [NOTICE] Zone: portail - FAILURE: , 0c:ec:84:17:03:55, 192.168.11.201, Invalid credentials specified.
+06-03-2020 10:30:51.5 [NOTICE] Zone: portail - FAILURE: , d8:c4:6a:b8:6f:9a, 192.168.11.118, Invalid credentials specified.
+06-03-2020 10:30:51.5 [INFO] Insert success
+06-03-2020 10:37:08.0 [NOTICE] Zone: portail - 192.168.11.1 invalid: TYPO illegal character (.) found in 192.168.11.1 !!
+06-03-2020 10:37:08.0 [NOTICE] Zone: portail - FAILURE: 192.168.11.1, bc:91:b5:71:ea:c7, 192.168.11.102
+06-03-2020 10:38:07.6 [NOTICE] Zone: portail - FAILURE: 77627820, bc:91:b5:71:ea:c7, 192.168.11.102, Invalid credentials specified.
+06-03-2020 10:38:07.6 [INFO] Insert success
+06-03-2020 10:46:33.0 [NOTICE] Zone: portail - FAILURE: , 64:cb:9f:d2:3d:54, 192.168.11.174, Invalid credentials specified.
+06-03-2020 10:46:40.2 [NOTICE] Zone: portail - EXPIRED FU8SAKWYB8NXE LOGIN - TERMINATING SESSION: FU8SAKWYB8NXE, 64:cb:9f:b7:39:22, 192.168.11.46
+06-03-2020 10:52:13.3 [NOTICE] Zone: portail - 007202 invalid: TYPO illegal character (0) found in 007202 !!
+06-03-2020 10:52:13.3 [NOTICE] Zone: portail - FAILURE: 007202, b4:c0:f5:81:9b:08, 192.168.11.130
+06-03-2020 10:52:19.6 [NOTICE] Zone: portail - FAILURE: , b4:c0:f5:81:9b:08, 192.168.11.130, Invalid credentials specified.
+06-03-2020 10:52:19.6 [INFO] Insert success
+06-03-2020 11:41:56.1 [NOTICE] Zone: portail - Voucher login good for 1440 min.: CUPD347TX6GN8, 68:5a:cf:29:1a:b6, 192.168.11.244
+06-03-2020 11:41:56.1 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 11:52:18.8 [NOTICE] Zone: portail - FAILURE: , 00:08:22:94:02:30, 192.168.11.199, Invalid credentials specified.
+06-03-2020 11:55:07.3 [NOTICE] Zone: portail - FAILURE: , 00:08:22:94:02:30, 192.168.11.199, Invalid credentials specified.
+06-03-2020 11:55:07.3 [INFO] Insert success
+06-03-2020 11:57:36.8 [NOTICE] Zone: portail - 192.168.11.1 invalid: TYPO illegal character (.) found in 192.168.11.1 !!
+06-03-2020 11:57:36.8 [NOTICE] Zone: portail - FAILURE: 192.168.11.1, bc:91:b5:0b:55:9e, 192.168.11.34
+06-03-2020 12:04:11.5 [NOTICE] Zone: portail - Voucher login good for 1152 min.: UD1CHBMW9CJUF, bc:91:b5:0b:55:9e, 192.168.11.34
+06-03-2020 12:04:11.5 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 12:11:55.6 [NOTICE] Zone: portail - Voucher login good for 1144 min.: UD1CHBMW9CJUF, 00:f4:8d:eb:c5:bf, 192.168.11.126
+06-03-2020 12:11:55.6 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 12:16:56.1 [NOTICE] Zone: portail - EXPIRED WY4Z241ZY5VYA LOGIN - TERMINATING SESSION: WY4Z241ZY5VYA, 74:c1:7d:4e:a0:f9, 192.168.11.81
+06-03-2020 12:27:33.1 [NOTICE] Zone: portail - Voucher login good for 1440 min.: KZSYE1RG7VWB8, 58:db:15:af:ae:41, 192.168.11.54
+06-03-2020 12:27:33.1 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 12:37:04.8 [NOTICE] Zone: portail - FAILURE: , 24:df:6a:1e:e3:2f, 192.168.11.162, Invalid credentials specified.
+06-03-2020 12:37:04.8 [INFO] Insert success
+06-03-2020 12:47:39.7 [NOTICE] Zone: portail - FAILURE: , bc:91:b5:af:af:81, 192.168.11.219, Invalid credentials specified.
+06-03-2020 12:48:54.8 [NOTICE] Zone: portail - GR5HFW41PDABD invalid: TYPO Invalid magic <GR5HFW41PDABD> !!
+06-03-2020 12:48:54.8 [NOTICE] Zone: portail - FAILURE: GR5HFW41PDABD, bc:91:b5:0b:55:9e, 192.168.11.34
+06-03-2020 12:52:15.4 [NOTICE] Zone: portail - Voucher login good for 120 min.: DR5HFW41PDABD, bc:91:b5:0b:55:9e, 192.168.11.34
+06-03-2020 12:52:15.4 [ERROR] DB: Error: Column count doesn't match value count at row 1
+06-03-2020 13:03:16.6 [DEBUG] Now listening on: :514
+06-03-2020 13:03:16.7 [NOTICE] DB connected
+06-03-2020 13:14:19.5 [NOTICE] Zone: portail - Voucher login good for 7162 min.: AZMCSX3AFPGYB, f4:d1:08:28:e2:c2, 192.168.11.63
+06-03-2020 13:14:19.5 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 13:16:57.9 [NOTICE] Zone: portail - Voucher login good for 95 min.: DR5HFW41PDABD, 48:4b:aa:0a:39:50, 192.168.11.110
+06-03-2020 13:16:57.9 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 13:16:59.7 [NOTICE] Zone: portail - Voucher login good for 95 min.: DR5HFW41PDABD, 48:4b:aa:0a:39:50, 192.168.11.110
+06-03-2020 13:16:59.7 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 13:23:20.3 [NOTICE] Zone: portail - FAILURE: , 80:91:33:2b:18:ab, 192.168.11.125, Invalid credentials specified.
+06-03-2020 13:23:20.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:27:06.3 [NOTICE] Zone: portail - 0056341 invalid: TYPO illegal character (0) found in 0056341 !!
+06-03-2020 13:27:06.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:27:06.3 [NOTICE] Zone: portail - FAILURE: 0056341, 80:91:33:2b:18:ab, 192.168.11.125
+06-03-2020 13:27:06.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:28:28.3 [NOTICE] Zone: portail - 0056341 invalid: TYPO illegal character (0) found in 0056341 !!
+06-03-2020 13:28:28.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:28:28.3 [NOTICE] Zone: portail - FAILURE: 0056341, 80:91:33:2b:18:ab, 192.168.11.125
+06-03-2020 13:28:28.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:29:22.3 [NOTICE] Zone: portail - 0056341 invalid: TYPO illegal character (0) found in 0056341 !!
+06-03-2020 13:29:22.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:29:22.3 [NOTICE] Zone: portail - FAILURE: 0056341, 64:cb:9f:d3:b6:79, 192.168.11.15
+06-03-2020 13:29:22.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:31:12.9 [NOTICE] Zone: portail - 0056341 invalid: TYPO illegal character (0) found in 0056341 !!
+06-03-2020 13:31:12.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:31:12.9 [NOTICE] Zone: portail - FAILURE: 0056341, 64:cb:9f:d3:b6:79, 192.168.11.15
+06-03-2020 13:31:12.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:31:38.9 [NOTICE] Zone: portail - 0056341 invalid: TYPO illegal character (0) found in 0056341 !!
+06-03-2020 13:31:38.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:31:38.9 [NOTICE] Zone: portail - FAILURE: 0056341, 64:cb:9f:d3:b6:79, 192.168.11.15
+06-03-2020 13:31:38.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:37:03.4 [NOTICE] Zone: portail - Voucher login good for 1440 min.: D76E346VYZTD3, 80:91:33:2b:18:ab, 192.168.11.125
+06-03-2020 13:37:03.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 13:43:58.7 [NOTICE] Zone: portail - FAILURE: , 78:ff:ca:7c:c1:73, 192.168.11.70, Invalid credentials specified.
+06-03-2020 13:43:58.7 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:44:03.7 [NOTICE] Zone: portail - UD1CJUF invalid: TYPO Invalid magic <UD1CJUF> !!
+06-03-2020 13:44:03.7 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:44:03.7 [NOTICE] Zone: portail - FAILURE: UD1CJUF, 74:c1:7d:86:d4:51, 192.168.11.25
+06-03-2020 13:44:03.7 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:44:17.9 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:86:d4:51, 192.168.11.25, Invalid credentials specified.
+06-03-2020 13:44:17.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:51:17.0 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:90:6d:d0, 192.168.11.72, Invalid credentials specified.
+06-03-2020 13:51:17.0 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 13:51:27.6 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:90:6d:d0, 192.168.11.72, Invalid credentials specified.
+06-03-2020 13:51:27.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:01:02.2 [NOTICE] Zone: portail - Voucher login good for 120 min.: PZFHFSFPXQH4D, 96:b6:2d:20:c0:c3, 192.168.11.36
+06-03-2020 14:01:02.2 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 14:22:41.8 [NOTICE] Zone: portail - FAILURE: , ac:2d:a9:c6:3d:f3, 192.168.11.67, Invalid credentials specified.
+06-03-2020 14:22:41.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:23:10.6 [NOTICE] Zone: portail - FAILURE: , ac:2d:a9:c6:3d:f3, 192.168.11.67, Invalid credentials specified.
+06-03-2020 14:23:10.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:27:29.9 [NOTICE] Zone: portail - Voucher login good for 1389 min.: D76E346VYZTD3, 64:cb:9f:d3:b6:79, 192.168.11.15
+06-03-2020 14:27:29.9 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 14:38:21.3 [NOTICE] Zone: portail - 192.168.11.1 invalid: TYPO illegal character (.) found in 192.168.11.1 !!
+06-03-2020 14:38:21.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:38:21.3 [NOTICE] Zone: portail - FAILURE: 192.168.11.1, 70:9f:a9:92:3b:de, 192.168.11.144
+06-03-2020 14:38:21.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:38:33.2 [NOTICE] Zone: portail - 192.168.11.1 invalid: TYPO illegal character (.) found in 192.168.11.1 !!
+06-03-2020 14:38:33.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:38:33.2 [NOTICE] Zone: portail - FAILURE: 192.168.11.1, 70:9f:a9:92:3b:de, 192.168.11.144
+06-03-2020 14:38:33.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:38:43.3 [NOTICE] Zone: portail - FAILURE: , 70:9f:a9:92:3b:de, 192.168.11.144, Invalid credentials specified.
+06-03-2020 14:38:43.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 14:51:24.7 [NOTICE] Zone: portail - EXPIRED DR5HFW41PDABD LOGIN - TERMINATING SESSION: DR5HFW41PDABD, 48:4b:aa:0a:39:50, 192.168.11.110
+06-03-2020 14:51:24.7 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+06-03-2020 14:57:47.4 [NOTICE] Zone: portail - Voucher login good for 1002 min.: PHGAPTPMECNQ8, 72:3e:9c:53:6e:df, 192.168.11.168
+06-03-2020 14:57:47.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 15:05:48.2 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:91:14:ce, 192.168.11.174, Invalid credentials specified.
+06-03-2020 15:05:48.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
