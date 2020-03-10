@@ -1,0 +1,17 @@
+10-03-2020 19:33:10.9 [DEBUG] Now listening on: :514
+10-03-2020 19:33:11.6 [ERROR] DB ERROR: Error: Unknown database 'captiveportal_stats'
+10-03-2020 19:33:11.6 [ERROR] 
+{
+   "code": "ER_BAD_DB_ERROR",
+   "errno": 1049,
+   "sqlState": "42000",
+   "sqlMessage": "Unknown database 'captiveportal_stats'"
+}
+10-03-2020 19:33:13.6 [ERROR] DB ERROR: Error: Unknown database 'captiveportal_stats'
+10-03-2020 19:33:13.6 [ERROR] 
+{
+   "code": "ER_BAD_DB_ERROR",
+   "errno": 1049,
+   "sqlState": "42000",
+   "sqlMessage": "Unknown database 'captiveportal_stats'"
+}
