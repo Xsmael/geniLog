@@ -141,3 +141,91 @@
 06-03-2020 14:57:47.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
 06-03-2020 15:05:48.2 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:91:14:ce, 192.168.11.174, Invalid credentials specified.
 06-03-2020 15:05:48.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 15:17:15.8 [NOTICE] Zone: portail - Voucher login good for 1270 min.: KZSYE1RG7VWB8, 7c:89:56:a3:d3:ee, 192.168.11.202
+06-03-2020 15:17:15.8 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 15:23:46.8 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:fa:0f:33, 192.168.11.122, Invalid credentials specified.
+06-03-2020 15:23:46.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 15:24:01.5 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:fa:0f:33, 192.168.11.122, Invalid credentials specified.
+06-03-2020 15:24:01.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 15:24:18.0 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:fa:0f:33, 192.168.11.122, Invalid credentials specified.
+06-03-2020 15:24:18.0 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 15:25:32.4 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:fa:0f:33, 192.168.11.122, Invalid credentials specified.
+06-03-2020 15:25:32.4 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 15:33:13.3 [NOTICE] Zone: portail - Voucher login good for 7023 min.: AZMCSX3AFPGYB, b4:c0:f5:c7:a6:9e, 192.168.11.49
+06-03-2020 15:33:13.3 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 15:41:05.4 [NOTICE] Zone: portail - Voucher login good for 958 min.: PHGAPTPMECNQ8, 5c:c3:07:7a:e1:d8, 192.168.11.71
+06-03-2020 15:41:05.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:00:41.4 [NOTICE] Zone: portail - EXPIRED PZFHFSFPXQH4D LOGIN - TERMINATING SESSION: PZFHFSFPXQH4D, 96:b6:2d:20:c0:c3, 192.168.11.36
+06-03-2020 16:00:41.4 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+06-03-2020 16:12:06.3 [NOTICE] Zone: portail - FAILURE: , 68:a8:6d:ce:f5:c9, 192.168.11.216, Invalid credentials specified.
+06-03-2020 16:12:06.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:28:15.3 [NOTICE] Zone: portail - Voucher login good for 120 min.: 4X43TMNAMX7KF, 1c:3e:84:c0:ce:c9, 192.168.11.240
+06-03-2020 16:28:15.3 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:28:16.6 [NOTICE] Zone: portail - Voucher login good for 119 min.: 4X43TMNAMX7KF, 1c:3e:84:c0:ce:c9, 192.168.11.240
+06-03-2020 16:28:16.6 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:28:19.2 [NOTICE] Zone: portail - Voucher login good for 119 min.: 4X43TMNAMX7KF, 1c:3e:84:c0:ce:c9, 192.168.11.240
+06-03-2020 16:28:19.2 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:28:20.8 [NOTICE] Zone: portail - Voucher login good for 119 min.: 4X43TMNAMX7KF, 1c:3e:84:c0:ce:c9, 192.168.11.240
+06-03-2020 16:28:20.8 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:28:22.0 [NOTICE] Zone: portail - Voucher login good for 119 min.: 4X43TMNAMX7KF, 1c:3e:84:c0:ce:c9, 192.168.11.240
+06-03-2020 16:28:22.0 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 16:41:26.3 [NOTICE] Zone: portail - D76E346VYZT3 invalid: TYPO Invalid magic <D76E346VYZT3> !!
+06-03-2020 16:41:26.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:41:26.3 [NOTICE] Zone: portail - FAILURE: D76E346VYZT3, 74:c1:7d:c2:24:6d, 192.168.11.222
+06-03-2020 16:41:26.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:41:37.5 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:c2:24:6d, 192.168.11.222, Invalid credentials specified.
+06-03-2020 16:41:37.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:41:42.1 [NOTICE] Zone: portail - D76E346VYZT3 invalid: TYPO Invalid magic <D76E346VYZT3> !!
+06-03-2020 16:41:42.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:41:42.1 [NOTICE] Zone: portail - FAILURE: D76E346VYZT3, 74:c1:7d:c2:24:6d, 192.168.11.222
+06-03-2020 16:41:42.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:56:59.1 [NOTICE] Voucher: All 128 vouchers from Roll 800 marked unused
+06-03-2020 16:56:59.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 16:59:15.5 [NOTICE] Zone: portail - Voucher login good for 89 min.: 4X43TMNAMX7KF, cc:fa:00:f6:f6:07, 192.168.11.125
+06-03-2020 16:59:15.5 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:06:28.6 [NOTICE] Zone: portail - FAILURE: , c0:87:eb:80:37:cf, 192.168.11.221, Invalid credentials specified.
+06-03-2020 17:06:28.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 17:09:04.8 [NOTICE] Zone: portail - Voucher login good for 79 min.: 4X43TMNAMX7KF, c0:87:eb:80:37:cf, 192.168.11.221
+06-03-2020 17:09:04.8 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:10:36.6 [NOTICE] Zone: portail - Voucher login good for 77 min.: 4X43TMNAMX7KF, cc:fa:00:f6:f6:07, 192.168.11.125
+06-03-2020 17:10:36.6 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:10:48.4 [NOTICE] Zone: portail - Voucher login good for 77 min.: 4X43TMNAMX7KF, 74:c1:7d:c2:24:6d, 192.168.11.222
+06-03-2020 17:10:48.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:13:30.5 [NOTICE] Zone: portail - Voucher login good for 842 min.: UD1CHBMW9CJUF, 74:c1:7d:86:d4:51, 192.168.11.67
+06-03-2020 17:13:30.5 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:17:53.4 [NOTICE] Zone: portail - Voucher login good for 70 min.: 4X43TMNAMX7KF, c0:87:eb:80:37:cf, 192.168.11.221
+06-03-2020 17:17:53.4 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 17:48:38.3 [NOTICE] Zone: portail - Voucher login good for 39 min.: 4X43TMNAMX7KF, 74:c1:7d:c2:24:6d, 192.168.11.222
+06-03-2020 17:48:38.3 [WARNING] Invalid message format received: TypeError: reLOGIN.exec is not a function
+06-03-2020 18:28:08.3 [NOTICE] Zone: portail - EXPIRED 4X43TMNAMX7KF LOGIN - TERMINATING SESSION: 4X43TMNAMX7KF, 74:c1:7d:c2:24:6d, 192.168.11.222
+06-03-2020 18:28:08.3 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+06-03-2020 18:31:19.6 [NOTICE] Zone: portail - 4X43TMNAMX7KF (10/3) already used and expired
+06-03-2020 18:31:19.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 18:31:19.6 [NOTICE] Zone: portail - FAILURE: 4X43TMNAMX7KF, 74:c1:7d:c2:24:6d, 192.168.11.222, voucher expired
+06-03-2020 18:31:19.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 20:38:28.2 [NOTICE] Zone: portail - 16022618495 invalid: TYPO illegal character (0) found in 16022618495 !!
+06-03-2020 20:38:28.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 20:38:28.2 [NOTICE] Zone: portail - FAILURE: 16022618495, 48:59:29:d0:2e:b8, 192.168.11.237
+06-03-2020 20:38:28.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 20:38:44.9 [NOTICE] Zone: portail - xhshjs invalid: TYPO illegal character (s) found in xhshjs !!
+06-03-2020 20:38:44.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 20:38:44.9 [NOTICE] Zone: portail - FAILURE: xhshjs, 48:59:29:d0:2e:b8, 192.168.11.237
+06-03-2020 20:38:44.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 20:52:36.3 [NOTICE] Zone: portail - EXPIRED SYSESTU6764CD LOGIN - TERMINATING SESSION: SYSESTU6764CD, 4c:80:93:50:2a:53, 192.168.11.134
+06-03-2020 20:52:36.3 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+06-03-2020 21:03:18.3 [ERROR] DB ERROR: Error: Connection lost: The server closed the connection.
+06-03-2020 21:03:20.5 [NOTICE] DB connected
+06-03-2020 21:32:28.0 [NOTICE] Zone: portail - FAILURE: , ac:2d:a9:7c:ee:91, 192.168.11.18, Invalid credentials specified.
+06-03-2020 21:32:28.0 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 21:55:08.8 [NOTICE] Zone: portail - ^66 invalid: Too short!
+06-03-2020 21:55:08.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 21:55:08.8 [NOTICE] Zone: portail - FAILURE: ^66, 50:f0:d3:3f:7c:f8, 192.168.11.35
+06-03-2020 21:55:08.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 21:56:03.9 [NOTICE] Zone: portail - ERROR: gerard, 50:f0:d3:3f:7c:f8, 192.168.11.35, Error : could not connect to authentication server.
+06-03-2020 21:56:03.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 21:56:10.3 [NOTICE] Zone: portail - FAILURE: , 50:f0:d3:3f:7c:f8, 192.168.11.35, Invalid credentials specified.
+06-03-2020 21:56:10.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 21:56:14.5 [NOTICE] Zone: portail - FAILURE: , 50:f0:d3:3f:7c:f8, 192.168.11.35, Invalid credentials specified.
+06-03-2020 21:56:14.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+06-03-2020 23:40:39.8 [NOTICE] Zone: portail - FAILURE: , 98:dd:ea:e3:f5:08, 192.168.11.227, Invalid credentials specified.
+06-03-2020 23:40:39.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function

@@ -22,17 +22,17 @@ connectDB();
 var listening = false ;
 var clients = [] ;
 var count = 0 ;
-var reLOGIN= "Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)";
-var reLOGOUT= "Zone: [\w\d]+ \- EXPIRED ([A-Za-z0-9]+) LOGIN - TERMINATING SESSION: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)";
-var reINVALID= "Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), (Invalid credentials specified)";
+var reLOGIN= /Zone: [\w\d]+ \- Voucher login good for (\d+) min\.: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/;
+var reLOGOUT= /Zone: [\w\d]+ \- EXPIRED ([A-Za-z0-9]+) LOGIN - TERMINATING SESSION: ([A-Za-z0-9]+), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/;
+var reINVALID= /Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), (Invalid credentials specified)/;
 
-var reUSED_EXPIRED= "Zone: [\w\d]+ \- ([A-Za-z0-9]+) \(([0-9]+/[0-9]+)\) (already used and expired)";
-var reNOTFOUND= "Zone: [\w\d]+ \- (.*?) \(([0-9]+/[0-9]+)\): (not found on any registered Roll)";
-var reTYPO_ILLEGAL= "Zone: [\w\d]+ \- (.*?) invalid: (TYPO illegal character.....found)";
-var reTYPO_INVALID= "Zone: [\w\d]+ \- (.*?) invalid: (TYPO Invalid magic)";
-var reTOO_SHORT= "Zone: [\w\d]+ \- (.*?) invalid: (Too short!)";
-var reERROR= "Zone: [\w\d]+ \- ERROR: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), \w+ : ([\w\s]+)";
-var reFAILURE= "Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)";
+var reUSED_EXPIRED= /Zone: [\w\d]+ \- ([A-Za-z0-9]+) \(([0-9]+\/[0-9]+)\) (already used and expired)/;
+var reNOTFOUND= /Zone: [\w\d]+ \- (.*?) \(([0-9]+\/[0-9]+)\): (not found on any registered Roll)/;
+var reTYPO_ILLEGAL= /Zone: [\w\d]+ \- (.*?) invalid: (TYPO illegal character.....found)/;
+var reTYPO_INVALID= /Zone: [\w\d]+ \- (.*?) invalid: (TYPO Invalid magic)/;
+var reTOO_SHORT= /Zone: [\w\d]+ \- (.*?) invalid: (Too short!)/;
+var reERROR= /Zone: [\w\d]+ \- ERROR: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+), \w+ : ([\w\s]+)/;
+var reFAILURE= /Zone: [\w\d]+ \- FAILURE: (.*?), ([a-fA-F0-9:]{17}|[a-fA-F0-9]{12}), ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/;
 
 server.on('msg', data => {
     // console.log(typeof data.tag);

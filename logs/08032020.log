@@ -1,0 +1,74 @@
+08-03-2020 05:03:37.1 [ERROR] DB ERROR: Error: Connection lost: The server closed the connection.
+08-03-2020 05:03:40.7 [NOTICE] DB connected
+08-03-2020 08:15:06.4 [NOTICE] Zone: portail - 157291 invalid: TYPO Invalid magic <157291> !!
+08-03-2020 08:15:06.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 08:15:06.5 [NOTICE] Zone: portail - FAILURE: 157291, 64:cb:9f:6a:ec:08, 192.168.11.150
+08-03-2020 08:15:06.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 09:45:42.6 [NOTICE] Zone: portail - J3BF8EZUDZGJ8 (131/90) already used and expired
+08-03-2020 09:45:42.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 09:45:42.6 [NOTICE] Zone: portail - EXPIRED J3BF8EZUDZGJ8 LOGIN - TERMINATING SESSION: J3BF8EZUDZGJ8, 74:c1:7d:4e:a0:f9, 192.168.11.173
+08-03-2020 09:45:42.6 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+08-03-2020 12:41:02.4 [NOTICE] Zone: portail - FAILURE: , f8:a4:5f:8c:2e:20, 192.168.11.88, Invalid credentials specified.
+08-03-2020 12:41:02.4 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 12:59:51.8 [NOTICE] Zone: portail - FAILURE: , 98:8e:d4:36:a3:20, 192.168.11.72, Invalid credentials specified.
+08-03-2020 12:59:51.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 13:01:33.2 [NOTICE] Zone: portail - FAILURE: , 98:8e:d4:36:a3:20, 192.168.11.72, Invalid credentials specified.
+08-03-2020 13:01:33.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 13:03:42.0 [ERROR] DB ERROR: Error: Connection lost: The server closed the connection.
+08-03-2020 13:03:45.0 [NOTICE] DB connected
+08-03-2020 15:40:17.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 15:40:17.9 [NOTICE] Zone: portail - 1234 invalid: Too short!
+08-03-2020 15:40:17.9 [NOTICE] Zone: portail - FAILURE: 1234, 34:4d:f7:8a:26:11, 192.168.11.247
+08-03-2020 15:40:17.9 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 15:40:24.6 [NOTICE] Zone: portail - FAILURE: , 34:4d:f7:8a:26:11, 192.168.11.247, Invalid credentials specified.
+08-03-2020 15:40:24.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 15:59:54.4 [NOTICE] Zone: portail - FAILURE: , 78:ff:ca:79:42:6f, 192.168.11.187, Invalid credentials specified.
+08-03-2020 15:59:54.4 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:05:13.1 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:4c:59:c8, 192.168.11.135, Invalid credentials specified.
+08-03-2020 16:05:13.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:06:25.3 [NOTICE] Zone: portail - FAILURE: Konvolbo, 74:c1:7d:4c:59:c8, 192.168.11.135, Invalid credentials specified.
+08-03-2020 16:06:25.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:06:57.4 [NOTICE] Zone: portail - FAILURE: , 74:c1:7d:4c:59:c8, 192.168.11.135, Invalid credentials specified.
+08-03-2020 16:06:57.4 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:43:01.8 [NOTICE] Zone: portail - EXPIRED V4D743D9MSF68 LOGIN - TERMINATING SESSION: V4D743D9MSF68, 20:26:81:99:94:95, 192.168.11.210
+08-03-2020 16:43:01.8 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+08-03-2020 16:43:20.3 [NOTICE] Zone: portail - 192168111 invalid: TYPO Invalid magic <192168111> !!
+08-03-2020 16:43:20.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:43:20.3 [NOTICE] Zone: portail - FAILURE: 192168111, ac:2d:a9:fc:93:c6, 192.168.11.237
+08-03-2020 16:43:20.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 16:49:23.2 [NOTICE] Zone: portail - FAILURE: , 80:79:5d:18:ef:e5, 192.168.11.29, Invalid credentials specified.
+08-03-2020 16:49:23.2 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 17:20:08.5 [NOTICE] Zone: portail - EXPIRED 8N5DB4QRDXM47 LOGIN - TERMINATING SESSION: 8N5DB4QRDXM47, 4c:80:93:50:2a:53, 192.168.11.131
+08-03-2020 17:20:08.5 [WARNING] Invalid message format received: TypeError: reLOGOUT.exec is not a function
+08-03-2020 17:50:03.5 [NOTICE] Zone: portail - Rtyyy7yi invalid: TYPO illegal character (i) found in Rtyyy7yi !!
+08-03-2020 17:50:03.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 17:50:03.5 [NOTICE] Zone: portail - FAILURE: Rtyyy7yi, 88:29:9c:b2:ba:cb, 192.168.11.252
+08-03-2020 17:50:03.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 20:11:56.3 [NOTICE] Zone: portail - FAILURE: , 14:11:14:40:8b:09, 192.168.11.168, Invalid credentials specified.
+08-03-2020 20:11:56.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:03:46.3 [ERROR] DB ERROR: Error: Connection lost: The server closed the connection.
+08-03-2020 21:03:49.4 [NOTICE] DB connected
+08-03-2020 21:25:22.6 [NOTICE] Zone: portail - aaaa invalid: Too short!
+08-03-2020 21:25:22.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:25:22.6 [NOTICE] Zone: portail - FAILURE: aaaa, 18:dc:56:39:15:0d, 192.168.11.236
+08-03-2020 21:25:22.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:25:31.8 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:25:31.8 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:26:12.6 [NOTICE] Zone: portail - cccccc invalid: TYPO illegal character (c) found in cccccc !!
+08-03-2020 21:26:12.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:26:12.6 [NOTICE] Zone: portail - FAILURE: cccccc, 18:dc:56:39:15:0d, 192.168.11.236
+08-03-2020 21:26:12.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:33:20.3 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:33:20.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:33:23.1 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:33:23.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:33:25.3 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:33:25.3 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:33:51.6 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:33:51.6 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 21:43:05.4 [NOTICE] Zone: portail - FAILURE: , 18:dc:56:39:15:0d, 192.168.11.236, Invalid credentials specified.
+08-03-2020 21:43:05.4 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 22:23:44.5 [NOTICE] Zone: portail - FAILURE: , ac:2d:a9:b3:c6:60, 192.168.11.211, Invalid credentials specified.
+08-03-2020 22:23:44.5 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
+08-03-2020 22:24:36.1 [NOTICE] Zone: portail - FAILURE: , ac:2d:a9:b3:c6:60, 192.168.11.211, Invalid credentials specified.
+08-03-2020 22:24:36.1 [WARNING] Invalid message format received: TypeError: reINVALID.exec is not a function
