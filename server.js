@@ -65,7 +65,7 @@ server.on('msg', data => {
             };
 
             db_connection.execute('INSERT INTO logouts(id, code, durantion, mac, ip, time) VALUES (?,?,?,?,?,NOW())',
-            [null, info.code, info.durantion, info.mac, info.ip],
+            [null, info.code, info.durantion || null, info.mac, info.ip],
                 function (err, results, fields) {
                     if (err) log.error("DB: " + err);
                 });
