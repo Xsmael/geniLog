@@ -1,2 +1,2 @@
 # geniLog
-geniLog is an advanced customisable syslog server
+geniLog is an advanced customisable and strongly opinionated syslog server, in other words you better mind your business...
